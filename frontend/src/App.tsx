@@ -5,7 +5,6 @@ import Start from "./pages/start";
 import Contact from "./pages/contact";
 import Navigation from "./components/Navigation";
 import Products from "./pages/products";
-import ProductsList from "./components/ProductsList";
 import Notfound from "./pages/notfound";
 import ProductDetail from "./components/ProductDetail";
 import Admin from "./pages/admin";
@@ -13,7 +12,7 @@ import Admin from "./pages/admin";
 function App() {
   return (
     <div className="App">
-        <Navigation />
+        <div style={{marginBottom: '4rem'}}><Navigation /></div>
         <Routes>
             <Route path="*" element={<Notfound/>}></Route>
             <Route path="/" element={<Start/>}></Route>

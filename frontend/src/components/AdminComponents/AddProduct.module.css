@@ -1,0 +1,21 @@
+.form input{
+    margin: 0.75rem;
+
+}
+.form button, input{
+    width: 15vw;
+}
+
+.form button{
+    background-color: rgba(65,141,26,0.76);
+    font-weight: bold;
+}
+.form button:hover{
+    width: 16vw;
+    background-color: rgba(65,240,26,0.76);
+}
+
+.form p {
+    color:red;
+    font-weight:bold;
+}

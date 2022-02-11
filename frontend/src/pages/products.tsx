@@ -9,8 +9,6 @@ interface productsI  {
     date: Date
 }
 
-
-
 const Products= () => {
     const [products, setProducts] = useState<productsI[]>([])
 
@@ -27,9 +25,7 @@ const Products= () => {
                     date: response.data[key].date
                 })
             }
-
             setProducts(productsFetched)
-
         })
     }, [])
 

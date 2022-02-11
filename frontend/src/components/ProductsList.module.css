@@ -1,0 +1,10 @@
+.list li{
+    list-style: none;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+}
+.product{
+    border: 2px solid #282c34;
+}
