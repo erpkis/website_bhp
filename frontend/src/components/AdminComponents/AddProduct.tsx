@@ -44,7 +44,7 @@ const AddProduct = () => {
                 <label htmlFor="name">Nazwa produktu</label><br />
                 <input ref={nameRef} id="name" type="text"/><br />
                 <label htmlFor="price">Cena</label><br />
-                <input ref={priceRef} id="price" type="number"/><br />
+                <input ref={priceRef} id="price" type="text"/><br />
                 <label htmlFor="date">Data</label><br />
                 <input ref={dateRef} id="date" type="date"/><br />
                 <button>Prześlij</button>

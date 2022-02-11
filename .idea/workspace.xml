@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5099123f-3923-46e7-8ee4-33dd75af57e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Login.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/register.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Main.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Main.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/AdminComponents/AddProduct.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/AdminComponents/AddProduct.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Navigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Navigation.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ProductsList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ProductsList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/start.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/start.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,13 +22,21 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="CSS File" />
         <option value="TypeScript JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -38,6 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/09-finished" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -63,7 +76,7 @@
       <workItem from="1644477205510" duration="1912000" />
       <workItem from="1644481207445" duration="149000" />
       <workItem from="1644481478771" duration="16452000" />
-      <workItem from="1644565359985" duration="6902000" />
+      <workItem from="1644565359985" duration="13605000" />
     </task>
     <servers />
   </component>

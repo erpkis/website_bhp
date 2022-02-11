@@ -1,10 +1,7 @@
 import React from 'react';
+import Main from "../components/Main";
 const Start = () => {
-    return (
-        <div>
-            Jesteś na starcie
-        </div>
-    );
+    return <Main/>
 };
 
 export default Start;

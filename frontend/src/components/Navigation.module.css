@@ -29,3 +29,8 @@
     font-size: 1.25rem;
     border-bottom: 1px solid red
 }
+
+.nav li img{
+    position: absolute;
+    left: 0;
+}
