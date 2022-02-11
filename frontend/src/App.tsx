@@ -8,6 +8,8 @@ import Products from "./pages/products";
 import Notfound from "./pages/notfound";
 import ProductDetail from "./components/ProductDetail";
 import Admin from "./pages/admin";
+import Login from "./components/Login";
+import Register from "./pages/register";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
             <Route path="/products" element={<Products/>}></Route>
             <Route path="/products/:productId" element={<ProductDetail/>}></Route>
             <Route path="/admin" element={<Admin/>}></Route>
+            <Route path="/login" element={<Login/>}></Route>
+            <Route path="/register" element={<Register/>}></Route>
 
         </Routes>
     </div>

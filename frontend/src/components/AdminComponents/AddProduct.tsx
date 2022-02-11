@@ -2,6 +2,10 @@ import React, {useRef, useState} from 'react';
 import axios from "axios";
 import classes from './AddProduct.module.css'
 
+
+// todo walidacja lepsza produktów
+
+
 const AddProduct = () => {
 
     const [formValidated, setFormValidated] = useState(true)

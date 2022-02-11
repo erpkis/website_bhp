@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5099123f-3923-46e7-8ee4-33dd75af57e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/AdminComponents/AddProduct.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/AdminComponents/AddProduct.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ProductsList.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/register.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Navigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Navigation.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/ProductsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ProductsList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/products.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/products.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/AdminComponents/AddProduct.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/AdminComponents/AddProduct.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Navigation.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -68,7 +63,7 @@
       <workItem from="1644477205510" duration="1912000" />
       <workItem from="1644481207445" duration="149000" />
       <workItem from="1644481478771" duration="16452000" />
-      <workItem from="1644565359985" duration="4805000" />
+      <workItem from="1644565359985" duration="6902000" />
     </task>
     <servers />
   </component>
