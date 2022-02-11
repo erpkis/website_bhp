@@ -8,7 +8,7 @@ import Products from "./pages/products";
 import Notfound from "./pages/notfound";
 import ProductDetail from "./components/ProductDetail";
 import Admin from "./pages/admin";
-import Login from "./components/Login";
+import Login from "./components/Authorization/Login";
 import Register from "./pages/register";
 
 function App() {
