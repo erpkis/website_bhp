@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5099123f-3923-46e7-8ee4-33dd75af57e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Authorization/RegisterUser.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/website_context.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Authorization/Login.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/register.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/register.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ProductsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ProductsList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="CSS File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -46,13 +46,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/09-finished" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react_typescript" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="ts.external.directory.path" value="C:\Users\admin\WebstormProjects\website_aga\frontend\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\admin\WebstormProjects\website_aga\backend\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -74,6 +74,9 @@
       <workItem from="1644481207445" duration="149000" />
       <workItem from="1644481478771" duration="16452000" />
       <workItem from="1644565359985" duration="14755000" />
+      <workItem from="1644825075053" duration="5454000" />
+      <workItem from="1644833395010" duration="46000" />
+      <workItem from="1644917936823" duration="103000" />
     </task>
     <servers />
   </component>

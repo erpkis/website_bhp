@@ -1,9 +1,10 @@
 import {Request, Response} from "express";
 const express = require('express')
-const app = express()
 const mariadb = require('mariadb');
 const cors = require('cors')
 
+
+const app = express()
 app.use(cors())
 
 export interface TypedRequestBody<T> extends Express.Request {

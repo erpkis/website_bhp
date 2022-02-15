@@ -21,12 +21,10 @@ const ProductsList: React.FC<{id: Number, text: String, price: Number, date: Dat
 
     return (
         <div className={classes.list}>
-            <li><Link to={`/products/${props.id}`}>
-                <div className={classes.product}>
+            <li className={classes.product}><Link to={`/products/${props.id}`}>
                     <h2>Nazwa: {props.text}</h2>
                     <h3>Cena: {formatedPrice}zł</h3>
                     <h4>Data publikacji: {date}</h4>
-                </div>
 
             </Link></li>
         </div>
