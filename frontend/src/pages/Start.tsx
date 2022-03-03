@@ -1,11 +1,11 @@
 import React from 'react';
-import classes from './Main.module.css'
-const Main = () => {
+import classes from "./Start.module.css";
+const Start = () => {
     return (
         <div className={classes.main}>
             Jesteś na starcie.
         </div>
-    );
+    )
 };
 
-export default Main;
+export default Start;

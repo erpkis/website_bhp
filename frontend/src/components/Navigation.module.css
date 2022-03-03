@@ -33,4 +33,5 @@
 .nav li img{
     position: absolute;
     left: 0;
+    z-index:2;
 }

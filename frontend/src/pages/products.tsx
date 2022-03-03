@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import ProductsList from "../components/ProductsList";
+import ProductItem from "../components/ProductItem";
 import axios from "axios";
+import {Link} from "react-router-dom";
 
 interface productsI  {
     id: number;
@@ -10,6 +11,7 @@ interface productsI  {
 }
 
 const Products= () => {
+
     const [products, setProducts] = useState<productsI[]>([])
 
 
@@ -30,13 +32,19 @@ const Products= () => {
     }, [])
 
    const displayProducts = products.map(product => (
-        <ProductsList key={product.id} id={product.id} text={product.name} price={product.price} date={product.date}/>
+        <ProductItem key={product.id} id={product.id} text={product.name} price={product.price} date={product.date}/>
     ))
 
+
+
     return (
-        <ul>
-            {displayProducts}
-        </ul>
+        <>
+            <Link style={{backgroundColor: 'black', color: 'yellow', float: 'right'}}to='add-product'>Dodaj produkt</Link>
+            <ul>
+                {displayProducts}
+            </ul>
+        </>
+
     );
 };
 

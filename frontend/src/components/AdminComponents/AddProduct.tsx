@@ -23,7 +23,7 @@ const AddProduct = () => {
             setFormValidated(false)
         }
         else{
-            axios.post('http://localhost:3001/api/insert', {
+            axios.post('http://localhost:3001/products/addproduct', {
                 name,
                 price,
                 date

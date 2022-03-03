@@ -16,7 +16,7 @@ const RegisterUser = () => {
         const password = passwordRef.current!.value
         const repeatPass = repeatPassRef.current!.value
 
-        axios.post('http://localhost:3001/api/register', {
+        axios.post('http://localhost:3001/auth/register', {
             email,
             login,
             password

@@ -1,0 +1,32 @@
+.list{
+    border: 2px solid #282c34;
+    width:50%;
+    height: 30vh;
+    margin-top: 3rem;
+}
+.list li{
+    list-style: none;
+}
+.list a{
+    text-decoration: none;
+    color: white;
+
+}
+.product{
+    position: relative;
+    margin: 2rem 3rem;
+    text-align:right;
+    width: 67%;
+}
+
+
+.product div{
+    background-image: url("https://i1.jbzd.com.pl/contents/2022/02/normal/9E7TWCFGuGGZBCHwpxJhpMbgqcPqpRBf.png");
+    background-position: center;
+    background-size:cover;
+    position:relative;
+    margin-left: 1rem;
+    z-index:0;
+    height: 100%;
+    width: 33%;
+}

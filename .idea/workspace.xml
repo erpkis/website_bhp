@@ -2,12 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5099123f-3923-46e7-8ee4-33dd75af57e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/store/website_context.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/controllers/products_controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/controllers/users_controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/database.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/products_routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/users_routes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/ProductsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ProductsList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/AdminComponents/AddProduct.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/AdminComponents/AddProduct.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Authorization/RegisterUser.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Start.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Main.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Navigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Navigation.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ProductsList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ProductItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ProductsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ProductItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/products.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/products.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/register.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Register.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/start.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Start.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +67,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="ts.external.directory.path" value="C:\Users\admin\WebstormProjects\website_aga\backend\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\admin\WebstormProjects\website_aga\frontend\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\admin\WebstormProjects\website_aga\frontend\src\components\Authorization" />
       <recent name="C:\Users\admin\WebstormProjects\website_aga\frontend\src\pages" />
+      <recent name="C:\Users\admin\WebstormProjects\website_aga\frontend\src\components\Authorization" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -77,6 +92,7 @@
       <workItem from="1644825075053" duration="5454000" />
       <workItem from="1644833395010" duration="46000" />
       <workItem from="1644917936823" duration="103000" />
+      <workItem from="1646306084213" duration="7219000" />
     </task>
     <servers />
   </component>

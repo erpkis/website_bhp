@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import classes from './ProductsList.module.css'
+import classes from './ProductItem.module.css'
 
 //Funkcja zmieniająca date z formatu YY-MM_DD na DD-MM-YY
 const formatDate = (date: Array<String>) => {
@@ -12,7 +12,7 @@ const formatDate = (date: Array<String>) => {
 }
 
 
-const ProductsList: React.FC<{id: Number, text: String, price: Number, date: Date}> = (props) => {
+const ProductItem: React.FC<{id: Number, text: String, price: Number, date: Date}> = (props) => {
 
     const formatedDateArray = props.date.toString().substring(0,10).split('')
     const date = formatDate(formatedDateArray)
@@ -22,6 +22,7 @@ const ProductsList: React.FC<{id: Number, text: String, price: Number, date: Dat
     return (
         <div className={classes.list}>
             <li className={classes.product}><Link to={`/products/${props.id}`}>
+                <div>x</div>
                     <h2>Nazwa: {props.text}</h2>
                     <h3>Cena: {formatedPrice}zł</h3>
                     <h4>Data publikacji: {date}</h4>
@@ -32,4 +33,4 @@ const ProductsList: React.FC<{id: Number, text: String, price: Number, date: Dat
     );
 };
 
-export default ProductsList;
+export default ProductItem;
